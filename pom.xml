@@ -16,9 +16,9 @@
     </modules>
 
     <groupId>cn.pasteme</groupId>
-    <artifactId>total</artifactId>
+    <artifactId>pasteme-root</artifactId>
     <version>1.0.0</version>
-    <name>total</name>
+    <name>pasteme-root</name>
     <description>Here is the PasteMe</description>
 
     <properties>
@@ -68,5 +68,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
