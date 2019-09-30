@@ -1,0 +1,9 @@
+[submodule "pasteme-common"]
+	path = pasteme-common
+	url = https://github.com/PasteUs/PasteMeCommon.git
+[submodule "pasteme-admin"]
+	path = pasteme-admin
+	url = https://github.com/PasteUs/PasteMeAdmin.git
+[submodule "pasteme-backend"]
+	path = pasteme-backend
+	url = https://github.com/PasteUs/PasteMeJavaBackend.git
