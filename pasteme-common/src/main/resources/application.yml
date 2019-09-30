@@ -1,7 +1,6 @@
 spring:
-  datasource:
-    url: jdbc:mysql://frps.lucien.ink:13306/pasteme
-    username: username
-    password: password
+  profiles:
+    active: dev
 mybatis:
-  mapper-locations: classpath*:mapper/**/*.xml
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: cn.pateme.common.entity
