@@ -2,6 +2,11 @@
 
 PasteMe Java 汇集
 
+## 规范
+
+1. 编写 https://github.com/PasteUs/README
+2. 提交代码时请先将某个 submodule fork 至自己的仓库，然后发起 `pull request` 
+
 ## Git clone
 
 请使用 `git clone --recursive https://github.com/PasteUs/PasteMeJava.git`
