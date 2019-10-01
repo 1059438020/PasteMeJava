@@ -1,8 +1,23 @@
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
+# config yml
+src/main/resources/*.yml
+!src/main/resources/*.example.yml
 
 ### STS ###
 .apt_generated
@@ -30,10 +45,5 @@ build/
 ### VS Code ###
 .vscode/
 
-### Custom ###
-/target/
-application.yml
-application-dev.yml
-application-prod.yml
-application-test.yml
-application-pre.yml
+## log file
+*.log
